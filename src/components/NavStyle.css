@@ -1,5 +1,14 @@
 .nav {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     border : 2px solid black;
     background-color: rgb(0, 94, 131);
     color:white;
+}
+
+.nav ul {
+    flex-basis: 30%;
 }

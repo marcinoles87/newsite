@@ -1,7 +1,8 @@
 import React  from "react";
+import FooterStyle from './FooterStyle.css';
 
 const Footer= () => {
-    return ( 
+    return (
         <div className="footer">
             <h1> Stopka</h1>
             
