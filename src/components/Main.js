@@ -1,4 +1,5 @@
 import React  from "react";
+import MainStyle from './MainStyle.css'
 
 const Main = () => {
     return ( 
