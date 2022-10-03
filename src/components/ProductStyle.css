@@ -17,3 +17,9 @@
     font-size: 100px;
     text-shadow: 4px 4px black;
 }
+
+.product_item1 {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}

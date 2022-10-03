@@ -7,6 +7,10 @@ const Product = () => {
         <div className="product">
             <h1> Our Products </h1>
             
+            <div className="product_item">
+                <h1>Product 1</h1>
+
+            </div>
 
         </div>
      );
