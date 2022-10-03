@@ -1,12 +1,12 @@
 import React  from "react";
+import ProductStyle from '../components/ProductStyle.css';
 
 
 const Product = () => {
     return ( 
         <div className="product">
-            <h1> Glowna tres</h1>
-            <p> Info o produktach </p>
-            <div> Jakies grafiki</div>
+            <h1> Our Products </h1>
+            
 
         </div>
      );

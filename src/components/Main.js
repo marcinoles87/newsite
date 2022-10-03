@@ -4,9 +4,8 @@ import MainStyle from './MainStyle.css'
 const Main = () => {
     return ( 
         <div className="main">
-            <h1> Glowna tres</h1>
-            <p> Info </p>
-            <div> Jakies grafiki</div>
+            <h1> Contact Us !</h1>
+            
 
         </div>
      );

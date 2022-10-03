@@ -21,13 +21,8 @@ function App() {
         <Route path='products' element={<Products></Products>} />
       </Routes>
 
-
-      
-
        <Nav />
-        {/* <Header /> */}
-        {/* <Main /> */}
-        <Footer />
+       <Footer />
      
     </div>
   );
