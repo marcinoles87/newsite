@@ -8,6 +8,7 @@
     background-color: rgb(23, 47, 56);
     border-bottom: 2px solid red;
     color:white;
+    
 }
 
 .nav ul {
@@ -21,9 +22,12 @@
 }
 
 .nav li {
+    font-weight: bold;
     margin-left: 10px;
     font-size:30px;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
 
 }
 
@@ -34,4 +38,12 @@
 .nav a {
     text-decoration: none;
     color:white;
+    transition: 0.5s;
+}
+
+.nav li:hover {
+    
+    background-color: rgb(255, 144, 144);
+    text-shadow: 2px 3px black;
+    transform: translateX(5px);
 }
