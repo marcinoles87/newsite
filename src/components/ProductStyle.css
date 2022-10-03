@@ -1,5 +1,4 @@
-.main{
-
+.product {
     display: flex;
     flex-direction: column;
     flex-basis: auto;

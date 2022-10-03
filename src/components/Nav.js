@@ -1,5 +1,5 @@
 import React  from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink , Link} from "react-router-dom";
 import NavStyle from './NavStyle.css'
 
 const Nav = () => {
@@ -8,15 +8,15 @@ const Nav = () => {
             <ul className="logo">Logo
              
                 <li>
-                    <NavLink to='/' /> HomePage
+                    <Link to='/' > HomePage </Link>
 
                 </li>
                 <li>
-                    <NavLink to='contact' /> Contact
+                    <Link to='contact' > Contact </Link>
 
                 </li>
                 <li>
-                    <NavLink to='products'/> Products
+                    <Link to='products'> Products </Link>
 
                 </li>
             </ul>

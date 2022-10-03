@@ -1,11 +1,11 @@
 import React from "react";
 import { Route , Routes , Link } from "react-router-dom";
+import Main from "../components/Main";
+
 
 const Contact = () => {
     return (
-        <div>
-            <h1> Kontakt do nas !</h1>
-        </div>
+       <Main />
       );
 }
  
