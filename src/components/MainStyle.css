@@ -18,3 +18,18 @@
     font-size: 100px;
     text-shadow: 4px 4px black;
 }
+
+.contact {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contact input {
+    margin: 20px;
+    height: 30px;
+   
+}

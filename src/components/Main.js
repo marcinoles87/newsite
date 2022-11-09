@@ -10,6 +10,7 @@ const Main = () => {
             <input placeholder="name"></input>
             <input placeholder="date"></input>
             <input placeholder="chosse destiny"></input>
+            <textarea></textarea>
             </div>
             
 
