@@ -4,7 +4,7 @@ import FooterStyle from './FooterStyle.css';
 const Footer= () => {
     return (
         <div className="footer">
-            <h1> Stopka</h1>
+            <h1> Marcin Oles 87</h1>
             
 
         </div>
