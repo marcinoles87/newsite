@@ -7,10 +7,11 @@ const Main = () => {
             <h1> Contact Us !</h1>
 
             <form className="contact">
-            <input placeholder="name"></input>
-            <input placeholder="date"></input>
-            <input placeholder="chosse destiny"></input>
-            <textarea></textarea>
+            <input className="contactName" placeholder="name"></input>
+            <input className="contactDate" placeholder="date"></input>
+            <input className="contactDestiny" placeholder="chosse destiny"></input>
+            <textarea className="contactMessage"></textarea>
+            <button className="buttonSubmit">Send</button>
             </form>
             
 

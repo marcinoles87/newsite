@@ -7,7 +7,7 @@
     background-color: rgb(0, 76, 82);
     color:white;
     background-image:url(../img/contact.jpg);
-    filter: grayscale(0.9);
+    /* filter: grayscale(0.9); */
     background-position:50% 80% ;
     background-size:auto;
     background-repeat: no-repeat;
@@ -32,4 +32,31 @@
     margin: 20px;
     height: 30px;
    
+}
+
+form {
+    width: 300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(194, 194, 194);
+    opacity: 0.8;
+    
+}
+
+.contactMessage {
+    margin:10px;
+    height: 150px;
+}
+
+.buttonSubmit {
+    width: 30%;
+    height: 40px;
+   
+}
+
+.buttonSubmit:hover {
+    background-color: black;
+    color:white;
 }
