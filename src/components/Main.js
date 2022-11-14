@@ -6,12 +6,12 @@ const Main = () => {
         <div className="main">
             <h1> Contact Us !</h1>
 
-            <div className="contact">
+            <form className="contact">
             <input placeholder="name"></input>
             <input placeholder="date"></input>
             <input placeholder="chosse destiny"></input>
             <textarea></textarea>
-            </div>
+            </form>
             
 
         </div>
